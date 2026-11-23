@@ -2,6 +2,8 @@
 
 ## 1. Color-coded HPC cluster architecture
 
+![Uploading image.png…]()
+
 ```mermaid
 flowchart TD
     U["User or login node"] --> C["Slurm or PBS controller"]
