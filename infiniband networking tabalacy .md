@@ -1,8 +1,7 @@
-**An HPC cluster often uses Ethernet for management and InfiniBand for communication between compute nodes.** When you submit a Fluent job through Slurm or PBS, the scheduler allocates the nodes. Once the solver starts, its MPI processes can use InfiniBand to exchange data between those nodes. That’s why SSH can still work even when a multi-node MPI job hangs or slows down.
-
 ## 1. Color-coded HPC cluster architecture
 
-![Uploading image.png…]()
+<img width="1600" height="1600" alt="InfiniBand_HPC_Architecture" src="https://github.com/user-attachments/assets/7d922a0f-d006-4e4b-b785-f0f8f65fbdf7" />
+
 
 ```mermaid
 flowchart TD
